@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Celsius to fahrenheit homework</title>
+		<script type="text/javascript">
+			var celsius;
+			celsius=window.prompt("請填入攝氏溫度");
+			document.writeln("<h1>輸入的攝氏溫度為:"+celsius+"\n換算後的華氏溫度為:"+
+				celsiusToFahrenheit(celsius)+"</h1>");
+			function celsiusToFahrenheit(celsius){
+				var fahrenheit=9/5*parseInt(celsius)+32;
+				return fahrenheit;
+			}
+		</script>
+	</head><body></body>
+</html>
